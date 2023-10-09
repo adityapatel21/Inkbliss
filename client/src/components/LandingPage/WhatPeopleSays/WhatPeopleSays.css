@@ -1,0 +1,61 @@
+#whatPeopleSays {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#whatPeopleSays h1 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+}
+#whatPeopleSays h1 span {
+  color: #57c5b6;
+}
+
+#whatPeopleSays .what-people-says-carousels {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  width: 50rem;
+  overflow: hidden;
+  position: relative;
+}
+
+#whatPeopleSays .what-people-says-carousels .what-people-says-carousels-inner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 5rem;
+  transition: transform 0.5s ease;
+}
+
+#whatPeopleSays
+  .what-people-says-carousels
+  .what-people-says-carousels-inner
+  .slide-inactive {
+  transition: transform 0.8s ease;
+
+  /* display: none; */
+}
+
+#whatPeopleSays
+  .what-people-says-carousels
+  .what-people-says-carousels-inner
+  .slide-active {
+  transition: transform 0.8s ease-in-out;
+}
+
+#whatPeopleSays .active-slide-dot {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#whatPeopleSays .active-slide-dot i {
+  margin: 0rem 0.3rem;
+  color: grey;
+  cursor: pointer;
+}
+#whatPeopleSays .active-slide-dot .active-indicator {
+  color: #57c5b6;
+}

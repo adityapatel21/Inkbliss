@@ -1,0 +1,122 @@
+#landingWhyInkbliss {
+  margin-top: 5rem;
+  padding: 0rem 8%;
+}
+
+#landingWhyInkbliss h1 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+}
+
+#landingWhyInkbliss h1 span {
+  color: #57c5b6;
+}
+
+#landingWhyInkbliss .why-ink-bliss-grid {
+  margin-top: 3rem;
+  border-radius: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.8rem;
+  grid-auto-rows: minmax(100px, 10rem);
+  overflow: hidden;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#landingWhyInkbliss .why-ink-bliss-grid .privacy-image {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  overflow: hidden;
+}
+
+#landingWhyInkbliss .why-ink-bliss-grid .privacy-text {
+  display: flex;
+  flex-direction: column;
+  background-color: #befff7;
+  grid-column: 2 / 4;
+  grid-row: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+#landingWhyInkbliss .why-ink-bliss-grid .privacy-text h1 {
+  font-size: 2rem;
+}
+
+#landingWhyInkbliss .why-ink-bliss-grid .privacy-text p {
+  margin: 0 4rem;
+  margin-top: 0.8rem;
+  line-height: 2rem;
+}
+
+#landingWhyInkbliss .why-ink-bliss-grid .access-from-anywhere-text {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffdd;
+  grid-column: 1 / 3;
+  grid-row: 2;
+  justify-content: center;
+  align-items: center;
+}
+#landingWhyInkbliss .why-ink-bliss-grid .access-from-anywhere-text h1 {
+  font-size: 2rem;
+}
+#landingWhyInkbliss .why-ink-bliss-grid .access-from-anywhere-text p {
+  margin: 0 4rem;
+  margin-top: 0.8rem;
+  line-height: 2rem;
+}
+#landingWhyInkbliss .why-ink-bliss-grid .access-from-anywhere-image {
+  grid-column: 3 / 4;
+  grid-row: 2;
+  overflow: hidden;
+  background-color: #ffffdd;
+}
+
+#landingWhyInkbliss .why-ink-bliss-grid .creative-playground-image {
+  grid-column: 1 / 2;
+  grid-row: 3;
+  overflow: hidden;
+}
+
+#landingWhyInkbliss .why-ink-bliss-grid .creative-playground-text {
+  display: flex;
+  flex-direction: column;
+  background-color: #befff7;
+  grid-column: 2 / 4;
+  grid-row: 3;
+  justify-content: center;
+  align-items: center;
+}
+#landingWhyInkbliss .why-ink-bliss-grid .creative-playground-text h1 {
+  font-size: 2rem;
+}
+#landingWhyInkbliss .why-ink-bliss-grid .creative-playground-text p {
+  margin: 0 4rem;
+  margin-top: 0.8rem;
+  line-height: 2rem;
+}
+
+#landingWhyInkbliss .why-ink-bliss-grid .share-with-a-click-text {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffdd;
+  grid-column: 1 / 3;
+  grid-row: 4;
+  justify-content: center;
+  align-items: center;
+}
+#landingWhyInkbliss .why-ink-bliss-grid .share-with-a-click-text h1 {
+  font-size: 2rem;
+}
+#landingWhyInkbliss .why-ink-bliss-grid .share-with-a-click-text p {
+  margin: 0 4rem;
+  margin-top: 0.8rem;
+  line-height: 2rem;
+}

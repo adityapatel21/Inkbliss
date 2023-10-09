@@ -1,0 +1,85 @@
+#LandingIntroduction {
+  margin-top: 11rem;
+  width: 100%;
+  padding: 0rem 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#LandingIntroduction .introduction {
+  width: 100%;
+}
+#LandingIntroduction .introduction h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+}
+#LandingIntroduction .introduction h1 span {
+  color: #57c5b6;
+}
+#LandingIntroduction .introduction h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8rem;
+  margin-top: 0.8rem;
+  margin-right: 5rem;
+}
+#LandingIntroduction .introduction p {
+  font-family: "Raleway", sans-serif;
+  margin-top: 2rem;
+  margin-right: 3rem;
+  line-height: 2rem;
+}
+
+#LandingIntroduction .introduction p span {
+  color: #374058;
+  font-weight: 800;
+}
+#LandingIntroduction .introduction .introduction-button {
+  margin-top: 1rem;
+  margin-left: 0rem;
+}
+
+#LandingIntroduction .introduction-image {
+  margin: 0rem;
+}
+#LandingIntroduction .introduction-image img {
+  border-radius: 5rem;
+  width: 25rem;
+  height: 25rem;
+}
+
+/* BreakPoints 1200, 900, 600 */
+
+@media screen and (max-width: 1200px) {
+  #LandingIntroduction {
+    padding: 0rem 5%;
+  }
+  #LandingIntroduction .introduction-image img {
+    border-radius: 5rem;
+    width: 20rem;
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #LandingIntroduction {
+    padding: 0rem 2%;
+    margin-top: 8rem;
+  }
+  #LandingIntroduction .introduction-image img {
+    border-radius: 5rem;
+    width: 15rem;
+    height: 15rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  #LandingIntroduction {
+    padding: 0rem 1%;
+    margin: 0.8rem;
+    margin-top: 9rem;
+  }
+
+  #LandingIntroduction .introduction-image img {
+    display: none;
+  }
+}

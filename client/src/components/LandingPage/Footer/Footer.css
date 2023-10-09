@@ -1,0 +1,116 @@
+#footer {
+  width: 100%;
+  padding: 2rem 6.5rem;
+  background-color: #effbfa;
+}
+#footer .footer-main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#footer .footer-main-container .footer-second-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#footer .footer-main-container .footer-second-container .footer-information {
+  margin-left: 5rem;
+}
+
+#footer
+  .footer-main-container
+  .footer-second-container
+  .footer-information
+  .footer-links {
+  display: flex;
+  gap: 5rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+#footer
+  .footer-main-container
+  .footer-second-container
+  .footer-information
+  .footer-links
+  li {
+  margin: 1rem;
+}
+
+#footer
+  .footer-main-container
+  .footer-second-container
+  .footer-information
+  .footer-links
+  li
+  a {
+  color: #333;
+}
+
+#footer .footer-main-container .footer-second-container .subscribe-newsletter {
+  margin: auto;
+}
+#footer
+  .footer-main-container
+  .footer-second-container
+  .subscribe-newsletter
+  h1 {
+  margin: 1rem 0rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+}
+
+#footer
+  .footer-main-container
+  .footer-second-container
+  .subscribe-newsletter
+  input {
+  padding: 0.5rem 0.5rem;
+  margin-right: 0.5rem;
+  width: 20rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.95rem;
+  border-color: #57c5b6;
+}
+
+#footer
+  .footer-main-container
+  .footer-second-container
+  .subscribe-newsletter
+  button {
+  margin: 0;
+  background-color: #57c5b6;
+  padding: 0rem 1rem;
+  height: 2.3rem;
+  border-style: none;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+}
+#footer
+  .footer-main-container
+  .footer-second-container
+  .footer-information
+  img {
+  height: 4rem;
+  width: auto;
+}
+#footer .socials-conatainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer .socials-conatainer a {
+  font-size: 3rem;
+  text-align: center;
+  color: #57c5b6;
+  margin: 0rem 4rem;
+}
+
+#footer .copyright-conatainer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,57 @@
+#trustedBy {
+  margin: 5rem auto;
+  width: 85%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#trustedBy h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+}
+
+#trustedBy h1 span {
+  color: #57c5b6;
+}
+
+#trustedBy .trusties-profiles {
+  margin-top: 3rem;
+  padding: 2rem 5rem;
+  border-radius: 3rem;
+  display: flex;
+  background-color: #ffffed;
+}
+
+#trustedBy .trusties-profiles .trusty-profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 1rem;
+}
+
+#trustedBy .trusties-profiles .user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+}
+
+#trustedBy .trusties-profiles .user-info p {
+  margin-top: 0.5rem;
+}
+#trustedBy .trusties-profiles .trusty-profile img {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 100%;
+}
+
+#trustedBy .trusties-profiles .trusty-profile h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.8rem;
+  margin-top: 1rem;
+}

@@ -1,0 +1,149 @@
+header {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  z-index: 999;
+  background-color: #ffffff;
+  padding: 0rem 7.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .nav-mobile {
+  position: absolute;
+  display: none;
+  left: 0%;
+  top: 4.5rem;
+  z-index: 998;
+  height: fit-content;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0em 0.5em 0.5em rgba(228, 228, 228, 0.6);
+}
+header .nav-mobile nav {
+  display: flex;
+  flex-direction: column;
+}
+
+header .nav-mobile nav a {
+  display: block;
+  margin: 1rem auto;
+  font-weight: 500;
+  color: #333;
+}
+
+header .nav-mobile nav div a {
+  color: #fff;
+}
+
+header img {
+  height: 6rem;
+  width: auto;
+  margin: 0px;
+  cursor: pointer;
+}
+
+header .header-inner {
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  color: red;
+}
+header .header-inner .nav-buttons {
+  display: flex;
+}
+
+header .header-inner .nav-buttons .signup-button {
+  margin-left: 1rem;
+}
+
+header .header-inner .nav-mobile-icons {
+  width: fit-content;
+  font-size: 1.5rem;
+  color: #57c5b6;
+  display: none;
+  /* padding: 1.1rem; */
+  margin: auto;
+}
+
+header .header-inner nav {
+  margin-left: 35px;
+}
+
+header .header-inner nav a {
+  margin-left: 35px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  color: #333;
+  transition: ease 0.2s;
+}
+header .header-inner nav a:hover {
+  color: #57c5b6;
+}
+
+/* BREAK POINTS 1200, 900, 600 */
+
+@media screen and (max-width: 1200px) {
+  header {
+    padding: 0rem 5%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    padding: 0rem 2%;
+  }
+  header img {
+    height: 4.5rem;
+  }
+  header .nav-mobile {
+    display: block;
+    height: 0;
+    overflow: hidden;
+    transition: 0.1s ease;
+    width: 100%;
+  }
+  header .nav-mobile-active {
+    height: 19rem;
+  }
+
+  header .header-inner {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 2fr 0.5fr;
+  }
+  header .header-inner nav {
+    display: none;
+  }
+  header .header-inner nav a {
+    position: absolute;
+    display: block;
+  }
+  header .header-inner .nav-mobile-icons {
+    display: block;
+    text-align: center;
+    grid-column: 3/4;
+  }
+  header .header-inner .nav-buttons {
+    justify-content: end;
+    text-align: end;
+    grid-column: 2/3;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  header .header-inner .nav-buttons {
+    justify-content: end;
+  }
+  header .header-inner .nav-buttons .login-button {
+    text-align: center;
+    margin-right: 1.2rem;
+  }
+  header .header-inner .nav-buttons .signup-button {
+    display: none;
+  }
+}
